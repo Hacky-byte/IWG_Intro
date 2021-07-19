@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#home
+{
+    background-color: #212529;
+    padding-bottom: 20px;
+}
+
+.navbar-brand{
+    margin-right: 40%;
+    margin-left: 13%;
+    font-size: 40px;
+}
+
+.nav-link{
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+#title{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.title h1{
+    line-height: 4rem;
+    margin-top: 15%;
+    color: white;
+}
+
+.title img{
+    transform: translateY(2rem) rotate(15deg); 
+}
+
+#hobbies h1{
+    margin: 100px 0 50px 0;
+}
+
+.hobbies{
+    display: grid;
+    margin-bottom: 100px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+}
+
+.card{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition-duration: 2s;
+}
+
+.card:hover{
+    transform: scale(1.5);
+}
+
+#achievements h1{
+    margin-bottom: 30px;
+}
+
+#achievements{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #212529;
+}
+
+#carouselExampleIndicators img{
+    margin:auto;
+    margin-top:  20px;
+    margin-bottom:  20px;
+    padding: 0 200px 0 200px;
+}
+
+
+
+#contact{
+    margin: 50px 0 50px 0;
+}
+
+#contact h1{
+    margin-bottom: 40px;
+}
+
+#contact i{ 
+    margin: 30px;
+    color: #212529;
+}
+
+
+
+#contact p{
+    margin-bottom: 30px;
+}
